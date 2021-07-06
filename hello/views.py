@@ -3,4 +3,6 @@ from django.shortcuts import render
 
 def hello(request):
     return HttpResponse("Hello, Azure!  Python Django -
-                        GitHub python-docs-hello-django/hello/views.py")            
+                        GitHub python-docs-hello-django/hello/views.py
+                        <p> New line</p>
+                        ")            
